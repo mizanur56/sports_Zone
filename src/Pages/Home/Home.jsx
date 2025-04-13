@@ -1,6 +1,7 @@
 import Banner from "../Banner/Banner";
 import Category from "../Ui/Category";
 import Service from "../Ui/Service";
+import Testimonial from "../Ui/Testimonial";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner />
       <Service />
       <Category />
+      <Testimonial />
     </div>
   );
 };

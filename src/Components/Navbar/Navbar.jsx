@@ -16,8 +16,8 @@ const Navbar = () => {
     { name: "PRODUCTS", link: "/reservation" },
     { name: "ABOUT", link: "/about-us" },
     { name: "CONTACT", link: "/contact-us" },
-    { name: "BLOG", link: "/contact-us" },
-    { name: "DASHBOARD", link: "/contact-us" },
+    { name: "BLOG", link: "/blog" },
+    { name: "DASHBOARD", link: "/dashboard" },
   ];
 
   return (
@@ -30,8 +30,10 @@ const Navbar = () => {
           </p>
         </Link>
         <div
-          className={`fixed top-[0px] bg-secondary lg:shadow-none shadow-xl shadow-primary/10 lg:bg-transparent left-0 lg:px-7 pb-7 w-[70%] lg:w-auto h-full overflow-auto transform transition-transform duration-500 ${
-            isMenuOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
+          className={`fixed top-[0px] text-white bg-secondary lg:shadow-none shadow-xl shadow-primary/10 lg:bg-transparent left-0 lg:px-7 pb-7 w-[70%] lg:w-auto h-full overflow-auto transform transition-transform duration-500 ${
+            isMenuOpen
+              ? "translate-x-0 bg-teal-600 opacity-100"
+              : "-translate-x-full lg:translate-x-0"
           } lg:static lg:p-0 lg:overflow-visible`}
         >
           <div className="flex lg:hidden border-b border-[#202020] justify-between items-center px-6 py-[17px]">
@@ -44,24 +46,25 @@ const Navbar = () => {
 
             <button
               onClick={toggleMenu}
-              className="flex lg:hidden border p-[6px] text-2xl border-primary/50 hover:border-primary/80 text-primary/80 hover:text-primary duration-200"
+              className="flex lg:hidden border p-[6px] text-white text-2xl border-primary/50 hover:border-primary/80 text-primary/80 hover:text-primary duration-200"
             >
               <IoMdClose />
             </button>
           </div>
           <ul className="list-none block text-[#9E9E9E] bg-opacity-5 pt-4 lg:pt-0 lg:flex gap-5">
-            {Links.map((item) => (
+            {Links.map((item, index) => (
               <NavLink
+                key={index}
                 to={item.link}
                 onClick={toggleMenu}
                 className={({ isActive }) =>
                   ` ${
-                    isActive && "text-primary"
-                  } hover:text-white duration-300 lg:pb-[2px] `
+                    isActive && "text-primary text-teal-700 font-medium"
+                  } hover:text-white hover:border-b-2 hover:border-amber-500 duration-300 lg:pb-[2px] `
                 }
               >
                 {" "}
-                <li key={item.link} className=" py-2 lg:pb-2 px-6 lg:px-0">
+                <li key={item.link} className=" py-2 lg:pb-4 px-6 lg:px-0">
                   {item.name}
                 </li>
               </NavLink>
@@ -72,7 +75,7 @@ const Navbar = () => {
         <div className="flex items-center gap-4 text-sm">
           <Link to={"/cart"}>
             <p className="flex items-center gap-3 rounded lg:bg-[#BBA97B] p-2 lg:px-5 lg:py-2 text-secondary font-medium relative">
-              <IoCartOutline className="lg:text-white text-3xl lg:text-2xl text-primary" />{" "}
+              <IoCartOutline className="text-white text-3xl lg:text-2xl" />{" "}
               <div className="absolute h-[18px] w-[18px] text-black lg:bg-secondary rounded-full text-secondary text-[8px] top-1 left-6 lg:left-8 flex justify-center items-center]">
                 12
               </div>
@@ -84,7 +87,7 @@ const Navbar = () => {
           </Link>
           <button
             onClick={toggleMenu}
-            className="flex lg:hidden border text-xl p-[6px] border-primary/50 hover:border-primary/80 text-primary/80 hover:text-primary duration-200"
+            className="flex lg:hidden text-xl text-white p-[6px] border-4 border-primary/50 hover:border-primary/80 text-primary/80 hover:text-primary duration-200"
           >
             <LiaBarsSolid />
           </button>

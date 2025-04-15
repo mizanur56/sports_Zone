@@ -10,14 +10,19 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
   };
+  const role = "admin";
 
   const Links = [
     { name: "HOME", link: "/" },
-    { name: "PRODUCTS", link: "/reservation" },
+    { name: "PRODUCTS", link: "/products" },
     { name: "ABOUT", link: "/about-us" },
-    { name: "CONTACT", link: "/contact-us" },
+    { name: "CONTACT", link: "/contactUs" },
     { name: "BLOG", link: "/blog" },
-    { name: "DASHBOARD", link: "/dashboard" },
+    // { name: "DASHBOARD", link: "/dashboard" },
+    {
+      name: "DASHBOARD",
+      link: `/dashboard/${role === "admin" ? "adminHome" : "userHome"}`,
+    },
   ];
 
   return (

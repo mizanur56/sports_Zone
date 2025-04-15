@@ -39,9 +39,9 @@ const Dashboard = () => {
     { to: "/dashboard/addProduct", icon: <FaPlus />, label: "ADD PRODUCT" },
     { to: "/dashboard/manageItems", icon: <FaList />, label: "MANAGE ITEMS" },
     {
-      to: "/dashboard/addBlogs",
+      to: "/dashboard/addBlog",
       icon: <FaBook />,
-      label: "ADD BLOGS",
+      label: "ADD BLOG",
     },
     { to: "/dashboard/allOrders", icon: <FaCartPlus />, label: "ALL ORDERS" },
     { to: "/dashboard/allUsers", icon: <FaUsers />, label: "ALL USERS" },

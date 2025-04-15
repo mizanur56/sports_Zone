@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "name": "SS Platinum Cricket Bat",
     "image": "https://i.ibb.co.com/3mLVzWXG/CA-Big-Bang-Icon-Cricket-Bat.jpg",
     "price": 12015,
@@ -13,7 +12,6 @@
     "isFeatured": true
   },
   {
-    "id": 2,
     "name": "Kookaburra White Cricket Ball",
     "image": "https://i.ibb.co.com/B2JD1L8y/Cricket-Ball-Thrower-Black.jpg",
     "price": 495,
@@ -26,7 +24,6 @@
     "isFeatured": false
   },
   {
-    "id": 3,
     "name": "SS Original Cricket Pads",
     "image": "https://i.ibb.co.com/WWG67chp/SS-Original-Cricket-Pads.jpg",
     "price": 4950,
@@ -39,7 +36,6 @@
     "isFeatured": false
   },
   {
-    "id": 4,
     "name": "KS Batting Gloves",
     "image": "https://i.ibb.co.com/hxcH8zKc/SS-Premium-Cricket-Gloves.jpg",
     "price": 2475,
@@ -52,7 +48,6 @@
     "isFeatured": false
   },
   {
-    "id": 5,
     "name": "SS Camo Duffle Cricket Kit Bag",
     "image": "https://i.ibb.co.com/3mLVzWXG/CA-Big-Bang-Icon-Cricket-Bat.jpg",
     "price": 1500,
@@ -65,7 +60,6 @@
     "isFeatured": false
   },
   {
-    "id": 6,
     "name": "CA Big Bang Icon Cricket Bat",
     "image": "https://i.ibb.co.com/3mLVzWXG/CA-Big-Bang-Icon-Cricket-Bat.jpg",
     "price": 39000,
@@ -78,7 +72,6 @@
     "isFeatured": true
   },
   {
-    "id": 7,
     "name": "Cricket Helmet - Yellow",
     "image": "https://i.ibb.co.com/WWG67chp/SS-Original-Cricket-Pads.jpg",
     "price": 450,
@@ -91,7 +84,6 @@
     "isFeatured": false
   },
   {
-    "id": 8,
     "name": "Cricket Ball Thrower (Black)",
     "image": "https://i.ibb.co.com/B2JD1L8y/Cricket-Ball-Thrower-Black.jpg",
     "price": 1912.5,
@@ -104,7 +96,6 @@
     "isFeatured": true
   },
   {
-    "id": 9,
     "name": "SS Premium Cricket Gloves",
     "image": "https://i.ibb.co.com/hxcH8zKc/SS-Premium-Cricket-Gloves.jpg",
     "price": 3937.5,
@@ -117,7 +108,6 @@
     "isFeatured": true
   },
   {
-    "id": 10,
     "name": "Cricket Bat Grip 1Pc",
     "image": "https://i.ibb.co.com/3mLVzWXG/CA-Big-Bang-Icon-Cricket-Bat.jpg",
     "price": 200,
@@ -130,7 +120,6 @@
     "isFeatured": false
   },
   {
-    "id": 11,
     "name": "Yonex Badminton Racket With String",
     "image": "https://i.ibb.co.com/WWG67chp/SS-Original-Cricket-Pads.jpg",
     "price": 1530,
@@ -143,7 +132,6 @@
     "isFeatured": true
   },
   {
-    "id": 12,
     "name": "Li-Ning Xi-Phos X1 Racket",
     "image": "https://i.ibb.co.com/hxcH8zKc/SS-Premium-Cricket-Gloves.jpg",
     "price": 2933,
@@ -156,7 +144,6 @@
     "isFeatured": true
   },
   {
-    "id": 13,
     "name": "Mavis 10 Badminton Shuttlecock (6pcs)",
     "image": "https://i.ibb.co.com/B2JD1L8y/Cricket-Ball-Thrower-Black.jpg",
     "price": 540,
@@ -169,7 +156,6 @@
     "isFeatured": false
   },
   {
-    "id": 14,
     "name": "Maxbolt Superstar 11 Racket",
     "image": "https://i.ibb.co.com/3mLVzWXG/CA-Big-Bang-Icon-Cricket-Bat.jpg",
     "price": 3600,
@@ -179,10 +165,9 @@
     "stockQuantity": 10,
     "availability": "In Stock",
     "isPopular": false,
-    "isFeatured": true
+    "isFeatured": false
   },
   {
-    "id": 15,
     "name": "Nylon Badminton Net - Maroon",
     "image": "https://i.ibb.co.com/WWG67chp/SS-Original-Cricket-Pads.jpg",
     "price": 693,
@@ -195,7 +180,6 @@
     "isFeatured": false
   },
   {
-    "id": 16,
     "name": "Rugby World Cup Match Ball",
     "image": "https://i.ibb.co.com/hxcH8zKc/SS-Premium-Cricket-Gloves.jpg",
     "price": 3450,
@@ -205,10 +189,9 @@
     "stockQuantity": 8,
     "availability": "In Stock",
     "isPopular": false,
-    "isFeatured": true
+    "isFeatured": false
   },
   {
-    "id": 17,
     "name": "Rugby Ball Pump",
     "image": "https://i.ibb.co.com/B2JD1L8y/Cricket-Ball-Thrower-Black.jpg",
     "price": 420,
@@ -221,7 +204,6 @@
     "isFeatured": false
   },
   {
-    "id": 18,
     "name": "Adidas Men’s Sports Jersey",
     "image": "https://i.ibb.co.com/WWG67chp/SS-Original-Cricket-Pads.jpg",
     "price": 1890,
@@ -231,32 +213,163 @@
     "stockQuantity": 22,
     "availability": "In Stock",
     "isPopular": true,
+    "isFeatured": false
+  },
+  {
+    "name": "Grays GX1000 Hockey Stick",
+    "image": "https://i.ibb.co.com/MyG0hd3w/Grays-GX1000-Hockey-Stick.jpg",
+    "price": 4200,
+    "description": "Durable and powerful stick for beginner to intermediate players.",
+    "brand": "Grays",
+    "category": "Hockey",
+    "stockQuantity": 9,
+    "availability": "In Stock",
+    "isPopular": false,
     "isFeatured": true
   },
   {
-    "id": 19,
-    "name": "Puma Men’s Running Shoes",
-    "image": "https://i.ibb.co.com/hxcH8zKc/SS-Premium-Cricket-Gloves.jpg",
-    "price": 3590,
-    "description": "Durable sports shoes with cushioning sole for maximum comfort.",
-    "brand": "Puma",
-    "category": "Shoes",
+    "name": "Gilbert Omega Match Rugby Ball",
+    "image": "https://i.ibb.co.com/KPKc8Hw/Gilbert-Omega-Match-Rugby-Ball.jpg",
+    "price": 2400,
+    "description": "High-grip surface rugby ball ideal for training and matches.",
+    "brand": "Gilbert",
+    "category": "Rugby Ball",
+    "stockQuantity": 20,
+    "availability": "In Stock",
+    "isPopular": true,
+    "isFeatured": false
+  },
+
+  {
+    "name": "Reebok Dry-Fit Jersey",
+    "image": "https://i.ibb.co.com/5WBh5GjJ/Reebok-Dry-Fit-Jersey.jpg",
+    "price": 1900,
+    "description": "Lightweight sports jersey with moisture-wicking fabric.",
+    "brand": "Reebok",
+    "category": "Jersey",
+    "stockQuantity": 22,
+    "availability": "In Stock",
+    "isPopular": false,
+    "isFeatured": false
+  },
+  {
+    "name": "Li-Ning Ultra Light Racket",
+    "image": "https://i.ibb.co.com/G4R19HHJ/Li-Ning-Ultra-Light-Racket.jpg",
+    "price": 2950,
+    "description": "Carbon-fiber racket with shock-absorbing handle.",
+    "brand": "Li-Ning",
+    "category": "Badminton",
+    "stockQuantity": 13,
+    "availability": "In Stock",
+    "isPopular": false,
+    "isFeatured": false
+  },
+  {
+    "name": "Adidas Pro Hockey Gloves",
+    "image": "https://i.ibb.co.com/XfbjfrNF/Adidas-Pro-Hockey-Gloves.jpg",
+    "price": 2200,
+    "description": "Protective gloves with superior grip and comfort.",
+    "brand": "Adidas",
+    "category": "Hockey",
+    "stockQuantity": 11,
+    "availability": "In Stock",
+    "isPopular": false,
+    "isFeatured": false
+  },
+  {
+    "name": "Nike Rugby Shin Guards",
+    "image": "https://i.ibb.co.com/RkZ9zprF/Nike-Rugby-Shin-Guards.jpg",
+    "price": 990,
+    "description": "Ergonomic design for maximum protection during matches.",
+    "brand": "Nike",
+    "category": "Rugby Ball",
+    "stockQuantity": 30,
+    "availability": "In Stock",
+    "isPopular": true,
+    "isFeatured": false
+  },
+  {
+    "name": "Hero Sprint Sports Bike",
+    "image": "https://i.ibb.co.com/FqNYDnbY/Hero-Sprint-Sports-Bike.jpg",
+    "price": 17499,
+    "description": "Reliable and lightweight bike for sports and commuting.",
+    "brand": "Hero",
+    "category": "Sport's Bike",
+    "stockQuantity": 6,
+    "availability": "In Stock",
+    "isPopular": true,
+    "isFeatured": false
+  },
+  {
+    "name": "Wildcraft Multi Utility Gym Bag",
+    "image": "https://i.ibb.co.com/Z6xq80mW/Wildcraft-Multi-Utility-Gym-Bag.jpg",
+    "price": 1950,
+    "description": "Compact and stylish gym bag with weather protection.",
+    "brand": "Wildcraft",
+    "category": "Sport's Bag",
+    "stockQuantity": 10,
+    "availability": "In Stock",
+    "isPopular": false,
+    "isFeatured": false
+  },
+  {
+    "name": "Under Armour Training Pants",
+    "image": "https://i.ibb.co.com/JFcwZ9TJ/Under-Armour-Training-Pants.jpg",
+    "price": 2700,
+    "description": "Tapered design, made for high-intensity workouts.",
+    "brand": "Under Armour",
+    "category": "Men's Wear",
     "stockQuantity": 17,
     "availability": "In Stock",
     "isPopular": true,
-    "isFeatured": true
+    "isFeatured": false
   },
   {
-    "id": 20,
-    "name": "Nike Gym Duffel Bag",
-    "image": "https://i.ibb.co.com/3mLVzWXG/CA-Big-Bang-Icon-Cricket-Bat.jpg",
-    "price": 2100,
-    "description": "Spacious and water-resistant gym bag for travel and sport.",
-    "brand": "Nike",
-    "category": "Sport's Bag",
+    "name": "Asics Running Shoes - Blue",
+    "image": "https://i.ibb.co.com/d0BxLdHQ/Asics-Running-Shoes-Blue.jpg",
+    "price": 4990,
+    "description": "Gel technology cushioning for comfort and speed.",
+    "brand": "Asics",
+    "category": "Shoes",
     "stockQuantity": 12,
     "availability": "In Stock",
     "isPopular": true,
+    "isFeatured": false
+  },
+  {
+    "name": "Bangladesh National Cricket Jersey",
+    "image": "https://i.ibb.co.com/BVRCCQcc/Bangladesh-National-Cricket-Jersey.jpg",
+    "price": 2250,
+    "description": "Official jersey with breathable fabric and India logo.",
+    "brand": "Nike",
+    "category": "Jersey",
+    "stockQuantity": 21,
+    "availability": "In Stock",
+    "isPopular": true,
     "isFeatured": true
+  },
+  {
+    "name": "GM English Willow Bat",
+    "image": "https://i.ibb.co.com/HLPDmdyq/GM-English-Willow-Bat.jpg",
+    "price": 15500,
+    "description": "Handcrafted bat with balanced pickup and thick edges.",
+    "brand": "GM",
+    "category": "Cricket",
+    "stockQuantity": 5,
+    "availability": "In Stock",
+    "isPopular": false,
+    "isFeatured": false
+  },
+  {
+    "name": "Nivia Badminton Shoes",
+    "image": "https://i.ibb.co.com/ym3Tcxzs/Nivia-Badminton-Shoes.jpg",
+    "price": 2890,
+    "description": "Non-marking soles designed for agility on court.",
+    "brand": "Nivia",
+    "category": "Shoes",
+    "stockQuantity": 16,
+    "availability": "In Stock",
+    "isPopular": false,
+    "isFeatured": false
   }
 ]

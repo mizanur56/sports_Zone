@@ -13,9 +13,9 @@ const ItemDetails = () => {
 
   useEffect(() => {
     axios
-      .get("/item.json")
+      .get("http://localhost:5000/products")
       .then((res) => {
-        const found = res.data.find((p) => p.id === parseInt(id));
+        const found = res.data.find((p) => p._id === id);
         setItem(found);
       })
       .catch((err) => console.error(err));

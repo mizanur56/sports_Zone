@@ -3,20 +3,13 @@ import React, { useEffect, useState } from "react";
 import FeaturedCard from "./FeaturedCard";
 import { FaArrowRightArrowLeft } from "react-icons/fa6";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import useProducts from "../../../Hooks/useProducts";
 
 const Featured = () => {
-  const [allItem, setAllItem] = useState([]);
+  const [products] = useProducts();
   const [showItem, setShowItem] = useState(4);
 
-  useEffect(() => {
-    axios.get("item.json").then((res) => {
-      // console.log(res.data);
-      setAllItem(res.data);
-    });
-  });
-  // console.log(allItem);
-  const featuredItem = allItem.filter((item) => item.isFeatured === true);
-  // console.log(featuredItem);
+  const featuredItem = products.filter((item) => item.isFeatured === true);
 
   const showAll = () => {
     setShowItem(featuredItem.length);

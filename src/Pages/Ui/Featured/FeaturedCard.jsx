@@ -11,14 +11,14 @@ const FeaturedCard = ({ item }) => {
   //   console.log(item);
   return (
     <div className="bg-white shadow-xl rounded-lg overflow-hidden group transition-all duration-300">
-      <div className="p-6 flex justify-center">
+      <div className="p-2 flex justify-center">
         <img
           src={item?.image}
           alt={item?.name}
-          className="rounded-xl w-full max-w-[200px] object-cover"
+          className="rounded-xl w-full h-[200px] object-cover"
         />
       </div>
-      <div className="flex items-center justify-center py-2">
+      <div className="flex items-center justify-center py-2 px-6">
         <Rating style={{ maxWidth: 100 }} value={rating} readOnly />
       </div>
       <div className="px-4 pb-6 text-center">
@@ -32,7 +32,7 @@ const FeaturedCard = ({ item }) => {
         <button className="bg-transparent border-2 border-teal-600 text-teal-600 text-2xl p-2 rounded-md hover:bg-red-700 hover:text-white hover:border-red-700 transition">
           <FaCartShopping />
         </button>
-        <Link to={`/itemDetails/${item.id}`}>
+        <Link to={`/itemDetails/${item._id}`}>
           <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">
             More Details
           </button>

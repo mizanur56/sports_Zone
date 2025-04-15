@@ -6,9 +6,13 @@ import BlogList from "../Pages/Blog/Blog";
 import Login from "../Auth/Login/Login";
 import SignUp from "../Auth/SignUp/SignUp";
 import Dashboard from "../Dashboard/Dashboard";
-import AdminHome from "../Dashboard/Ui/AdminHome";
+import AdminHome from "../Dashboard/Ui/AdminPage/AdminHome";
 
-import AddProduct from "../Dashboard/Ui/AddProduct";
+import AddProduct from "../Dashboard/Ui/AdminPage/AddProduct";
+import UserHome from "../Dashboard/Ui/UserPage/UserHome";
+import AddBlog from "../Dashboard/Ui/AdminPage/AddBlog";
+import Products from "../Pages/Products/Products";
+import ContactUs from "../Pages/ContactUs/ContactUs";
 
 export const router = createBrowserRouter([
   {
@@ -28,6 +32,10 @@ export const router = createBrowserRouter([
         element: <BlogList />,
       },
       {
+        path: "/contactUs",
+        element: <ContactUs />,
+      },
+      {
         path: "/login",
         element: <Login />,
       },
@@ -35,12 +43,17 @@ export const router = createBrowserRouter([
         path: "/signUp",
         element: <SignUp />,
       },
+      {
+        path: "/products",
+        element: <Products />,
+      },
     ],
   },
   {
     path: "/dashboard",
     element: <Dashboard />,
     children: [
+      // admin route
       {
         path: "adminHome",
         element: <AdminHome />,
@@ -48,6 +61,16 @@ export const router = createBrowserRouter([
       {
         path: "addProduct",
         element: <AddProduct />,
+      },
+      {
+        path: "addBlog",
+        element: <AddBlog />,
+      },
+
+      // user route
+      {
+        path: "userHome",
+        element: <UserHome />,
       },
     ],
   },
